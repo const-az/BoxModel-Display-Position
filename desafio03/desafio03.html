@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Constanza Avilés Zavando">
+  <title>Desafío 03 | Banderas</title>
+  <style media="screen" type="text/css">
+
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    h6{
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+
+    .all{
+      margin: auto;
+      width: 750px;
+      height: 600px;
+    }
+
+    .flag {
+      height: 200px;
+      width: 330px;
+    }
+
+    .spain-all, .denmark-all, .emirates-all, .japan-all{
+      display: inline-block;
+      margin: 10px;
+      float:left;
+    }
+
+    /* SPAIN */
+    .spain{
+      background-color: red;
+      border: solid 1px black;
+      position: relative;
+    }
+
+    .spain-yellow{
+      height: 100px;
+      width: 330px;
+      background-color: yellow;
+      top: 50px;
+      position: absolute;
+    }
+
+    /* DENMARK */
+    .denmark{
+      background-color: red;
+      border: solid 1px black;
+      position: relative;
+    }
+
+    .denmark-horizontal{
+      height: 25px;
+      width: 330px;
+      background-color: white;
+      top: 87.5px;
+      position: absolute;
+    }
+
+    .denmark-vertical{
+      height: 200px;
+      width: 25px;
+      background-color: white;
+      left: 100px;
+      position: absolute;
+    }
+
+    /* EMIRATES */
+    .emirates{
+      background-color: red;
+      border: solid 1px black;
+      position: relative;
+    }
+
+    .emirates-green, .emirates-white, .emirates-black{
+      width: 250px;
+      height: 67px;
+      margin-left: 80px;
+    }
+
+    .emirates-green{
+      background-color: green;
+    }
+
+    .emirates-white{
+      background-color: white;
+      z-index: 1;
+    }
+
+    .emirates-black{
+      background-color: black;
+    }
+
+    /* JAPAN */
+    .japan{
+      background-color: white;
+      border: solid 1px black;
+      position: relative;
+    }
+
+    .japan-circle{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background-color: red;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="all">
+
+    <div class="spain-all">
+      <div class="flag spain">
+        <div class="spain-yellow"></div>
+      </div>
+    <h6>España</h6>
+    </div>
+
+    <div class="denmark-all">
+      <div class="flag denmark">
+        <div class="denmark-horizontal"></div>
+        <div class="denmark-vertical"></div>
+      </div>
+      <h6>Dinamarca</h6>
+    </div>
+
+    <div class="emirates-all">
+      <div class="flag emirates">
+        <div class="emirates-green"></div>
+        <div class="emirates-white"></div>
+        <div class="emirates-black"></div>
+      </div>
+      <h6>Emiratos Árabes</h6>
+    </div>
+
+    <div class="japan-all">
+      <div class="flag japan">
+        <div class="japan-circle"></div>
+      </div>
+      <h6>Japón</h6>
+    </div>
+
+  </div>
+
+</body>
+</html>
